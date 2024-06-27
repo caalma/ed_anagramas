@@ -41,7 +41,10 @@
     background: #fff;
     text-align: center;
     font-size: 1.1em;
-    width: 100%;
+    width: 99%;
+    min-width: 99%;
+    max-width: 99%;
+    box-sizing: border-box;
 }
 
 .edanagram .tex:focus {
