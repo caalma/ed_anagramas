@@ -60,6 +60,7 @@ class EdAnagram {
         this.tex_b.addEventListener('keyup', ev=>{
             if(ev.altKey){
                 this.mover_signo(ev.key);
+                ev.preventDefault();
             }
             this.verificar_discrepancia();
         });
