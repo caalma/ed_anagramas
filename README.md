@@ -1,2 +1,4 @@
-# ed_anagramas
-Editor de Anagramas
+# Editor simple para ANAGRAMAS
+
+
+Utilidad para facilitar la exploración de anagramas.
