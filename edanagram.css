@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+.edanagram {
+    display: block;
+    padding: 20px 0;
+    width: 90vw;
+    height: auto;
+}
+
+.edanagram .titulo {
+    color: #777;
+    font-weight: 1.3em;
+}
+.edanagram .titulo * {
+    color: #888;
+}
+
+.edanagram .textos {
+    padding: 20px;
+    background: #333;
+    text-align: center;
+}
+
+.edanagram .nota {
+    color: #bba;
+}
+
+.edanagram * {
+    font-family: "Fira Code", monospace;
+}
+
+.edanagram input[type=checkbox] {
+    cursor: pointer;
+}
+
+.edanagram .tex {
+    display: block;
+    margin: 5px;
+    padding: 6px;
+    border: 0;
+    background: #fff;
+    text-align: center;
+    font-size: 1.1em;
+    width: 100%;
+}
+
+.edanagram .tex:focus {
+    outline: #08f 4px solid;
+}
+
+.edanagram .tex.pri {
+    background: #aee;
+}
+
+.edanagram.discrepan .tex.seg {
+    background: #fcc;
+}
+
+
+.edanagram .grp {
+    display: flex;
+    text-align: center;
+}
+
+.edanagram .menu {
+    padding: 20px;
+    background: #383838;
+    text-align: center;
+}
+
+.edanagram .menu .btn {
+    margin: 3px;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 8px;
+    background: #ddd;
+    color: #444;
+    cursor: pointer;
+}
+
+.edanagram .menu .btn:hover {
+    background: #fff;
+    color: #111;
+}
