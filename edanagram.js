@@ -18,7 +18,10 @@ class EdAnagram {
         ></textarea>
    </div>
    <p class="nota">
-      <small>Seleccionar parte del texto y presionado <b>Alt+FlechaIzquierda</b> o <b>Alt+FlechaDerecha</b> moverlo para reubicarlo.</small>
+      <small>Seleccionar parte del texto y presionado
+             <b>Shift+Alt+FlechaIzquierda</b> o <b>Shift+Alt+FlechaDerecha</b>
+             moverlo para reubicarlo.
+      </small>
    </p>
 </div>
 <div class="menu">
@@ -58,7 +61,7 @@ class EdAnagram {
         });
 
         this.tex_b.addEventListener('keyup', ev=>{
-            if(ev.altKey){
+            if(ev.altKey && ev.shiftKey){
                 this.mover_signo(ev.key);
                 ev.preventDefault();
             }
